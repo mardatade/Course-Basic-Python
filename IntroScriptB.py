@@ -1,6 +1,8 @@
-""" Example in Python
+""" Python Example for the MarDATA Block course
 
-For the MarDATA Block course
+Content:
+- pass methods to somewhere
+- mutable/immutable objects
 """
 
 
@@ -25,5 +27,12 @@ def build_pairs(group_one: list, group_two: list = [3, 4]) -> list:  # mutable a
 if __name__ == "__main__":
 
     print('Second test')
-    print(build_pairs(group_one=['a', 'b']))
-    print(build_pairs(group_one=['a', 'b']))
+
+    bad_name_for_a_method = build_pairs
+
+    # change
+    list_input = [3, 4]
+    # print(bad_name_for_a_method(group_one=['a', 'b'], group_two=list_input))
+
+    print(bad_name_for_a_method(group_one=['a', 'b']))
+    print(bad_name_for_a_method(group_one=['a', 'b']))

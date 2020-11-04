@@ -1,6 +1,10 @@
-""" Example in Python
+""" Python Example for the MarDATA Block course
 
-For the MarDATA Block course
+Content:
+- typehints
+- asserts
+- inline for loop
+- method calls
 """
 
 
