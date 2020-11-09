@@ -34,3 +34,7 @@ if __name__ == "__main__":
     # print(build_pairs(['a', 'b'], [1, 2]))
 
     print(build_pairs(group_one=['a', 'b'], group_two=[1, 2]))
+
+    # Bonus Tip
+    print('zip: ', list(zip(['a', 'b', 'c'], [1, 2, 3])))
+    print('unzip: ', list(zip(*[('a', 1), ('b', 2), ('c', 3)])))
