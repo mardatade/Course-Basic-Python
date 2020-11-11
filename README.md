@@ -1,5 +1,7 @@
 # Course-Basic-Python
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mardatade/Course-Basic-Python/HEAD)
+
 Example for the most basic but important concepts in Python.
 
 You should know [Python Fundamentals](https://earth-env-data-science.github.io/lectures/core_python/python_fundamentals.html)
@@ -17,5 +19,3 @@ by Ryan Abernathey.
 [IntroScriptB.py](IntroScriptB.py)
 - pass methods to somewhere
 - mutable/immutable objects
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mardatade/Course-Basic-Python/HEAD)
